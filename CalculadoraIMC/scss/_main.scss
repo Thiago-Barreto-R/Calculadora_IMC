@@ -1,0 +1,113 @@
+main {
+    width: 600px;
+    background-color: rgb(143, 11, 209);
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 .5em .5em;
+
+    .conteiner {
+        
+        .nome {
+            margin: 10px 0;
+
+            label {
+                font-size: 18px;
+                font-family: sans-serif;
+            }
+
+            input {
+                padding: 5px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-radius: 0 .5em .5em .5em;
+                border-bottom: 3px solid black;
+                background-color: rgba(14, 14, 9, 0.268);
+                width: 200px;
+                outline: 1 #fff;
+            }
+        }
+
+        .altura {
+            margin: 10px 0;
+
+            label {
+                font-size: 18px;
+                font-family: sans-serif;
+            }
+
+            input {
+                padding: 5px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-radius: 0 .5em .5em .5em;
+                border-bottom: 3px solid black;
+                background-color: rgba(14, 14, 9, 0.268);
+                width: 200px;
+                outline: 1 #fff;
+                
+            }
+        }
+
+        .peso {
+            padding: 0px 0;
+
+            label {
+                font-size: 18px;
+                font-family: sans-serif;
+            }
+
+            input {
+                padding: 5px;
+                margin-left: 5px;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-radius: 0 .5em .5em .5em;
+                border-bottom: 3px solid black;
+                background-color: rgba(14, 14, 9, 0.268);
+                width: 200px;
+                outline: 1 #fff;
+            }
+            
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+
+            button {
+                padding: 8px 10px;
+                width: 300px;
+                font-size: 20px;
+                color: #fff;
+                background-color: #000;
+                margin: 10px 0;
+                outline: 1 #fff;
+
+                
+            }
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .caixaRes {
+                width: 500px;
+                background-color: #000;
+                border: 4px solid rgb(80, 4, 135);
+                color: rgb(236, 240, 12);
+                padding: 10px;
+                font-size: 20px;
+                font-style: italic;
+                font-family: sans-serif;
+                border-radius: 0 .5em .5em .5em;
+            }
+        }
+    }
+}

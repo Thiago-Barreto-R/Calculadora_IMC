@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header {
+  width: 600px;
+  background-color: #8f0bd1;
+  text-align: center;
+  position: relative;
+  padding: 5px;
+  margin-top: 50px;
+  border-radius: .5em .5em 0 0;
+}
+
+header::after {
+  content: '';
+  width: 100%;
+  height: 1vh;
+  position: absolute;
+  background-color: black;
+  right: 0px;
+}
+
+header .title h1 {
+  color: #fff;
+}
+
+header .title h1 span {
+  text-transform: uppercase;
+}
+
+main {
+  width: 600px;
+  background-color: #8f0bd1;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 .5em .5em;
+}
+
+main .conteiner .nome {
+  margin: 10px 0;
+}
+
+main .conteiner .nome label {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+main .conteiner .nome input {
+  padding: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0 .5em .5em .5em;
+  border-bottom: 3px solid black;
+  background-color: rgba(14, 14, 9, 0.268);
+  width: 200px;
+  outline: 1 #fff;
+}
+
+main .conteiner .altura {
+  margin: 10px 0;
+}
+
+main .conteiner .altura label {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+main .conteiner .altura input {
+  padding: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0 .5em .5em .5em;
+  border-bottom: 3px solid black;
+  background-color: rgba(14, 14, 9, 0.268);
+  width: 200px;
+  outline: 1 #fff;
+}
+
+main .conteiner .peso {
+  padding: 0px 0;
+}
+
+main .conteiner .peso label {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+main .conteiner .peso input {
+  padding: 5px;
+  margin-left: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0 .5em .5em .5em;
+  border-bottom: 3px solid black;
+  background-color: rgba(14, 14, 9, 0.268);
+  width: 200px;
+  outline: 1 #fff;
+}
+
+main .conteiner .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .conteiner .btn button {
+  padding: 8px 10px;
+  width: 300px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #000;
+  margin: 10px 0;
+  outline: 1 #fff;
+}
+
+main .conteiner .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .conteiner .center .caixaRes {
+  width: 500px;
+  background-color: #000;
+  border: 4px solid #500487;
+  color: #ecf00c;
+  padding: 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-family: sans-serif;
+  border-radius: 0 .5em .5em .5em;
+}
+/*# sourceMappingURL=index.css.map */
